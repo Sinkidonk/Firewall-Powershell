@@ -1,0 +1,4 @@
+﻿name,portNum,direction,protocol,action
+block outbound traffic on Port 90 with TCP,90,outbound,tcp,block
+block outbound traffic on Port 90 with UDP,90,inbound,udp,block
+allow inbound traffic on port 80080 with TCP,8080,inbound,tcp,allow
